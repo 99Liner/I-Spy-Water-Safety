@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('.location').forEach(item => {
     item.addEventListener('mouseover', function() {
       document.getElementById(this.getAttribute('data-target')).scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
+        block: 'start'
       });
     });
   });
