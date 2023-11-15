@@ -19,7 +19,7 @@
         }
 
         .character-img {
-            max-width: 600px;
+            max-width: 400px;
             height: auto;
             border-radius: 5px;
         }
@@ -34,6 +34,11 @@
         .navbar {
             background: linear-gradient(to right, #5f9ea0, #4682b4); /* Navbar color */
         }
+        .card-img-top {
+            height: 450px;
+            width: 300px;
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -43,30 +48,63 @@
     <div class="container my-4">
         <h1 class="text-center mb-4">Game Characters</h1>
         <div class="row">
-            <!-- Placeholder for Character 1 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="character-card">
-                    <img src="Assets/NPC kid(blue shorts).png" alt="Character1" class="character-img">
-                    <h3>Puppy Rangers</h3>
-                    <p>Character description...</p>
+       
+            <h3 class="mt-4 p-3">Bear Rangers</h3>
+            <div class="card-group">
+                <div class="card">
+                    <img src=".\Assets\bear1blue.png" class="card-img-top" alt="...">
                 </div>
-                <div class="character-card">
-                    <img src="Assets/NPC kid(blue shorts).png" alt="Character1" class="character-img">
-                    <h3>Chicken Rangers</h3>
-                    <p>Character description...</p>
+                <div class="card">
+                    <img src=".\Assets\bear2green.png" class="card-img-top" alt="...">
                 </div>
-                <div class="character-card">
-                    <img src="Assets/NPC kid(blue shorts).png" alt="Character1" class="character-img">
-                    <h3>Deer Rangers</h3>
-                    <p>Character description...</p>
-                </div>
-                <div class="character-card">
-                    <img src="Assets/NPC kid(blue shorts).png" alt="Character1" class="character-img">
-                    <h3>SomethingElse Rangers</h3>
-                    <p>Character description...</p>
+                <div class="card">
+                    <img src=".\Assets\bear3yellow.png" class="card-img-top" alt="...">
                 </div>
             </div>
-            <!-- Repeat for other characters... -->
+            <h4>Description</h3>
+            <p>Every bear ranger is uniquely dressed in a vibrant outfit consisting of a cross-body bag, matching slacks, a shirt with paw prints, and a cap with an insignia. 
+                The color designs range from blue and green to yellow, and every bear embodies the friendly guardian of the wild, seeming cheerful and welcoming.
+            </p>
+
+            <h3 class="mt-4 p-3">Chick Rangers</h3>
+            <div class="card-group">
+                <div class="card">
+                    <img src=".\Assets\chick1blue.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src=".\Assets\chick2green.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <h4>Description</h3>
+            <p>Each chick ranger is distinctively dressed in a vivid uniform that includes matching shorts, a utility belt with essential ranger tools, and a cap featuring the park insignia. 
+                These animated characters, with their youthful and bright appearances, are designed to appear as genial and inviting guardians of the wilderness.
+            </p>
+
+            <h3 class="mt-4 p-3">Deer Rangers</h3>
+            <div class="card-group">
+                <div class="card">
+                    <img src=".\Assets\dear1blue.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src=".\Assets\dear2green.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <h4>Description</h3>
+            <p>Each deer ranger wears a badge-adorned collared shirt and a utility belt as part of a well-tailored uniform. 
+                Their clothes, in refreshing tones of blue and aqua, fit their calm, collected role as forest guardians. 
+                These figures serve as protectors of the forest, radiating a sense of friendliness and calm assurance.
+            </p>
+
+            <h3 class="mt-4 p-3">Wolf Rangers</h3>
+            <div class="card-group">
+                <div class="card">
+                    <img src=".\Assets\wolf1green.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <h4>Description</h3>
+            <p>The wolf ranger has casual yet official outfit that includes a green checked shirt, paired with black trousers. 
+                Its wolfish features, like the pointed ears and grey fur, are rendered in a soft and approachable manner, 
+                aligning with its role as a welcoming figure and protector of the digital forest setting.</p>
         </div>
 
         <!-- NPCs Section -->
@@ -74,13 +112,14 @@
             <h2>Non-Playable Characters (NPCs)</h2>
             <!-- Content for NPCs -->
             <div class="character-card">
-                <p><img src="Assets/NPC kid(green shorts).png" alt="NPC1" class="character-img">
-                <img src="Assets/NPC kid(blue shorts).png" alt="NPC2" class="character-img"> </p>
+                <p><img src=".\Assets\NPC kid(green shorts).png" alt="NPC1" class="character-img p-3">
+                <img src=".\Assets\NPC kid(blue shorts).png" alt="NPC2" class="character-img p-3"> </p>
                 <h3>Life Jacket NPC</h3>
                 <p>They wear life jackets!</p>
             </div>
             <div class="character-card">
-                <img src="..." alt="NPC2" class="character-img">
+                <p><img src=".\Assets\bluenpcgirlswim.png" alt="NPC1" class="character-img p-3">
+                <img src=".\Assets\yellowgirlnpcswim.png" alt="NPC2" class="character-img p-3"> </p>
                 <h3>Swimwear NPC</h3>
                 <p>They don't wear life jackets!</p>
             </div>
