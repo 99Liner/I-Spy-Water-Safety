@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="loadNavbar.js"></script>
+    <title>Features</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+        }
+
+        .character-card {
+            background-color: #e0ffff; /* Light cyan card background */
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .character-img {
+            max-width: 600px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .character-img2 {
+            max-width: 600px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .npc-section {
+            background-color: #b0e0e6; /* Powder blue for NPCs section */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, #5f9ea0, #4682b4); /* Navbar color */
+        }
+        .card-img-top {
+            height: 450px;
+            width: 300px;
+            object-fit: cover;
+        }
+        .statistics-section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .statistics-section h3 {
+            color: #333;
+        }
+        .statistics-section p {
+            color: #666;
+        }
+        .statistics-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .chart-image {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        border: 1px solid #ddd;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #babdc2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .cta-button:hover {
+    background-color: #004494;
+  }
+    </style>
+</head>
+
+
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="container my-4">
+        <h1 class="text-center mb-4">Statistics</h1> <br />
+        <div class="row">
+            <h2 id="features">Settings</h2> <br />
+                <img src=".\Assets\settings1.png" alt="..." class="character-img2 p-3 mx-auto d-block">
+                <p>To access the administrator settings, it requires a password access. Within this menu we can find the data collection for the data. 
+                    Also, it allows administrators to change the volume levels, resetting the leaderboard, and changing the admin settings password.
+                    On the statistics page, Cater's Lake can review scenarios users are missing the most. 
+                    Each location has a list of each scenario provided with the amount of times it has been answered correctly and incorrectly.
+                </p>
+        </div>
+
+        <div class="npc-section">
+            <h2>Statistics</h2>
+            <!-- Content for NPCs -->
+            <div class="character-card">
+                <div class="statistics-section">
+                    <h3>Game Statistics</h3>
+                    <p>Our interactive game is designed not just for fun, but also for learning. The statistics below demonstrate the effectiveness of the game in teaching players about lake water safety. 
+                        Each dot represents a player's performance, with the number of scenarios correctly handled on the vertical axis and the time taken to complete the game on the horizontal axis.</p>
+                </div>
+
+                <h3>First Playthrough</h3>
+                <p>In the initial round of gameplay, players are often getting acquainted with the game mechanics and lake safety rules. 
+                    The scatter in the "First Playthrough" graph represents the learning curve as players begin to understand the importance of making safe choices. 
+                    While the spread is broad, indicating varying levels of initial knowledge, there's a general trend that suggests players improve as they continue playing.</p>
+                <p><img src=".\Assets\firstPlay.png" alt="NPC1" class="character-img p-3 mx-auto d-block">
+                
+                <h3>Second Playthrough</h3>
+                <p>The "Second Playthrough" graph shows a noticeable shift towards higher scores in less time, indicating that players are learning from their first experience and applying their knowledge more effectively. 
+                    This improvement underscores the educational value of the game - with repeated play, users are not only reinforcing their knowledge but also their ability to react quickly and correctly in water safety scenarios.</p>
+                <img src=".\Assets\secondPlay.png" alt="NPC2" class="character-img p-3 mx-auto d-block"> </p>
+
+                <div class="statistics-section">
+                    <p>These insights aren't just numbers; they're a testament to our commitment to combining education with engagement. 
+                        By tracking these statistics, we can continuously refine our game to ensure it remains an effective learning tool for lake water safety.</p>
+                </div>
+
+            </div>
+
+
+            <div class="character-card">
+                <h3>CDC Statistics</h3>
+
+                <div class="statistics-section">
+                <h3>Understanding the Risks: Water Safety by the Numbers</h3>
+                <p><strong>The Importance of Lake Water Safety</strong><br>
+                    Every year, lakes are visited by numerous individuals and families seeking leisure and recreation. Yet, the risks of unintentional drowning lurk beneath the surface. 
+                    Our game serves as an essential educational tool to promote awareness and safety around water.</p>
+                
+                <h3>Statistics That Speak Volumes</h3>
+                <p>Unintentional drowning is a leading cause of death in the United States, with peak months occurring during the high season for lake visits. 
+                    The interactive chart below, sourced from the CDC, showcases the trends in these preventable tragedies.</p>
+                
+                <img src=".\Assets\CDCdrowning chart.png" alt="Fatal Injury Trends" class="chart-image mx-auto d-block">
+                <p><a href="https://www.cdc.gov/injury/wisqars/fatal/trends.html" target="_blank">Up-To-Date Chart</a></p>
+                
+                <h3>Why Our Game Matters</h3>
+                <p>Integrating real-world statistics, our game is designed to educate players about water safety, helping to prevent tragic accidents before they occur.</p>
+                
+                <h3>Learn More and Stay Informed</h3>
+                <p>For a more comprehensive understanding of water-related injuries, visit the <a href="https://www.cdc.gov/injury/wisqars/index.html" target="_blank">CDC's WISQARS™</a> for detailed data.</p>
+                
+                <!-- <a href="link-to-your-game" class="cta-button">Play the Game</a> -->
+                <a href="https://www.cdc.gov/injury/wisqars/index.html" class="cta-button" target="_blank">Learn the Facts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
